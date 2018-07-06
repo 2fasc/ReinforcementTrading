@@ -1,5 +1,6 @@
-![DAX](/images/DAX.png)
+![DAX](./images/DAX.png)
 Format: ![Alt Text](url)
+
 source: https://www.finanzen.net/index/DAX-Realtime
 
 # Goals
