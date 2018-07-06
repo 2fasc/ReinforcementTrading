@@ -1,8 +1,8 @@
 # Goals
-[ ] Learn about Markdown files
-[ ] Find free stock API
-[ ] Figure out which Stocks to use
-[ ] First request
+1. 1. [ ] Learn about Markdown files
+1. [ ] Find free stock API
+1. [ ] Figure out which Stocks to use
+1. [ ] First request
 
 > We're living the future so
 > the present is our past.
