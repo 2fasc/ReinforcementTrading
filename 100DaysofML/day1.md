@@ -1,5 +1,5 @@
 # Goals
-1. 1. [ ] Learn about Markdown files
+1. [ ] Learn about Markdown files
 1. [ ] Find free stock API
 1. [ ] Figure out which Stocks to use
 1. [ ] First request
