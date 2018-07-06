@@ -1,7 +1,7 @@
 # Goals
-- [] Find free stock API
-- [] Figure out which Stocks to use
-- [] First request
+1. Find free stock API
+1. Figure out which Stocks to use
+1. First request
 
 
 # Resources
