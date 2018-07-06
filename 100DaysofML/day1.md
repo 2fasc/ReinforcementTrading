@@ -1,3 +1,6 @@
+![DAX](./images/DAX.png)
+source: https://www.finanzen.net/index/DAX-Realtime
+
 # Goals
 1. [x] Learn about Markdown files
 1. [x] Find free stock API
