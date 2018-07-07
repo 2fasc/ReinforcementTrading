@@ -1,10 +1,7 @@
 # Goals
-1. [ ] Start working on a parser for minutely data
-1. [ ] Look into visualization libraries
-1. [ ] Look into interactive plots in markdown files
-1. [ ] Write simple visualizer 
-
-
+1. [x] Start writing a parser for requests 
 
 # Resources
-* much love <3
+* Book Python 3 by Johannes Ernesti and Peter Kaiser on how to nicely join strings
+* https://www.alphavantage.co/documentation/
+ 
