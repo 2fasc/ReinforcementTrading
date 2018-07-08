@@ -3,7 +3,9 @@
 1. [ ] Finish parser
 1. [ ] Search for interactive plots in markdown files
 
-# Results   
-* Decided to use Jupyter notebooks for visualization even though I haven't figured out the interactive part yet. 
-    * Is there a way to use the same functionalities (ipythonwidgets) that I have in jupyter lab?
+# Ideas
+ * Is there a way to use the same functionalities (ipythonwidgets) that I have in jupyter lab?
+    * Turns out neither github nor nbviewer can display those widgets 
+ * Use plotly to create an html file and copy its content into a markdown file?
+ * Use plotly in jupyter notebook
  
