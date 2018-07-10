@@ -1,6 +1,6 @@
 # Goals
 1. [x] Find relevant RL books
-1. [ ] Finish parser
+1. [x] Finish parser
 1. [x] Search for interactive plots in markdown files
 
 # Ideas
