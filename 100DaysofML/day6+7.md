@@ -1,5 +1,5 @@
 # Goal 
-1. [ ] read http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/ since this seems to be pretty much the same idea
+1. [x] read http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/ since this seems to be pretty much the same idea
 2. [x] read http://www.wildml.com/2016/10/learning-reinforcement-learning/
 
 # Insights
@@ -9,6 +9,23 @@
 * The volume of trade is 
   a) an indicator for how liquid the market is 
   b) an indicator for how reliable a trend is (consensus of market participants)
+
+* The timescale defines the strategy used
+  * Holding longterm assets is like a bet that something will be successful -> News, key insights ...
+    * Long Term Reasoning is not in the scope of this project and an ongoing field of research
+  * High Frequency Trading (HFT) is simple but super fast pattern matching with FPGAs
+    * Neural networks are too slow to operate on the nano sec timescales involved here
+
+* Training an RL agent we'll have to decide wether we rather want frequent feedback or longer term strategies - depending on the choosen reward function (trades as reward are relatively sparse compared to doing nothing)
+
+* The reward function will be a tradeoff between profit maximization and risk avoidance. 
+
+* Learned policy is only optimal for certain market conditions
+  * Is it possible to gain robustness by training an ensemble?
+    
+** In order to create a somewhat meaningful algorithm it has to compete somewhere between the two extremes:
+faster than any human could but with more insight than a simple FPGA tool - Ideally  that would be in the ms-min
+range but the finest data available is in a minute interval. I guess minutes it is.**
 
 # Simplifications
 * Buy and sell at the same level
