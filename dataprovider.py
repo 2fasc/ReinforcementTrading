@@ -47,7 +47,7 @@ def parser(function_attr, symbol, api_key, interval="60min", outputsize="full", 
     return "&".join(request_params)
 
 
-def extract_from_json(search_key, request, save_request = True):
+def extract_from_json(search_key, request, save_request=True):
 
     r = requests.get(request)
     result = r.json()
@@ -79,16 +79,16 @@ def main():
     print(load_api_key())
     API_KEY = load_api_key()
 
-    search_key = parser(function_attr="TIME_SERIES_INTRADAY", symbol="MSFT", outputsize="compact", api_key=API_KEY)
+    search_key = parser(function_attr="TIME_SERIES_DAILY", symbol="MSFT", outputsize="full", api_key=API_KEY)
     request = "https://www.alphavantage.co/query?" + search_key
 
 
-    # data_array, timestamp = extract_from_json(search_key, request)
+    data_array, timestamp = extract_from_json(search_key, request)
 
-    data_array = np.load("./bin/data_function=TIME_SERIES_DAILY&symbol=MSFT&outputsize=compact&datatype=json&"
-                         "apikey=demo_2018-02-13_2018-07-06.npy")
-    timestamp = pickle.load(open("./bin/timestamps_function=TIME_SERIES_DAILY&symbol=MSFT&outputsize=compact&"
-                                 "datatype=json&apikey=demo_2018-02-13_2018-07-06.pickle", 'rb'))
+    #data_array = np.load("./bin/data_function=TIME_SERIES_DAILY&symbol=MSFT&outputsize=compact&datatype=json&"
+    #                     "apikey=demo_2018-02-13_2018-07-06.npy")
+    #timestamp = pickle.load(open("./bin/timestamps_function=TIME_SERIES_DAILY&symbol=MSFT&outputsize=compact&"
+    #                             "datatype=json&apikey=demo_2018-02-13_2018-07-06.pickle", 'rb'))
 
     date_objects = [dt.datetime.strptime(d, '%Y-%m-%d').date() for d in timestamp]
 
