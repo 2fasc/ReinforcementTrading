@@ -1,5 +1,5 @@
 # Reinforcement Trading
-Training of NNs to analyze Stock prices and of an RL agent that trades based on the models provided
+Training of NNs to analyze Stock prices and of an RL agent that simulates trading based on the models provided
 
 # Objectives
 This whole endevour is not about making money trading stocks or currencies but is about having a practical application for learning about the following concepts:
@@ -21,8 +21,8 @@ This whole endevour is not about making money trading stocks or currencies but i
   * Cython
   * numba, dask
   * C-extensions
-  
-** The goal is not to make money trading stocks and I don't claim that it would be wise to use anything from this project to do so**
+ 
+** The goal is not to make money trading stocks and I don't claim that it would be wise to use anything from this project to do so **
 
 # Optional goals:
 * Set up a SQL server to store data even if that is not necessary for the amounts of data used 
